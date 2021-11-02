@@ -2,7 +2,8 @@
 
 
 # Deploy 
-[Deploy Hear](https://github.com/TeamDlt/TeamDltmusic)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TeamDlt/TeamDltmusic)
+
 
 
 # String Session 
