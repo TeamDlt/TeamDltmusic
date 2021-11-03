@@ -22,13 +22,13 @@ wait Please soon
 # ᴄᴏᴍᴍᴀɴᴅs ⚙️
 ### ALL CAN USE 👇🏻
 
-`/play <song name>` play song 
-`/song<song name>` download songs you want quickly
+- `/play <song name>` play song 
+- `/song<song name>` download songs you want quickly
 
 ### ONLY ADMINS 👇🏻
 
-`/skip` skip the current song 
-`/end` use for stop songs and assistant left the voicechat 
+- `/skip` skip the current song 
+- `/end` use for stop songs and assistant left the voicechat 
 
 
 # 𝗦𝗽𝗲𝗰𝗶𝗮𝗹 𝗖𝗿𝗲𝗱𝗶𝘁 𝗚𝗼𝗲𝘀 𝘁𝗼 👑
