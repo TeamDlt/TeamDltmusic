@@ -10,14 +10,26 @@
 
 
 # Deploy
-
-# Soon 
+wait Please soon 
 
 
 
 ## String Session 
 
 [String](https://replit.com/@SomyajeetMishra/TeamDlt) Click hear you can find string session OR join [Hear](t.me/teamdlt) and send #String / #String_Session
+
+
+# ᴄᴏᴍᴍᴀɴᴅs ⚙️
+### ALL CAN USE 👇🏻
+
+`/play <song name>` play song 
+`/song<song name>` download songs you want quickly
+
+### ONLY ADMINS 👇🏻
+
+`/skip` skip the current song 
+`/end` use for stop songs and assistant left the voicechat 
+
 
 # 𝗦𝗽𝗲𝗰𝗶𝗮𝗹 𝗖𝗿𝗲𝗱𝗶𝘁 𝗚𝗼𝗲𝘀 𝘁𝗼 👑
 
