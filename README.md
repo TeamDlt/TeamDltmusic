@@ -8,10 +8,10 @@ A Music Bot Created By TeamDlt
 
 # Deploy
 
-Soon 
+# Soon 
 
 
 
 ## String Session 
 
-[String](https://replit.com/@SomyajeetMishra/TeamDlt)
+[String](https://replit.com/@SomyajeetMishra/TeamDlt) Click hear you can find string session OR join [Hear](t.me/teamdlt) and send #String / #String_Session
