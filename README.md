@@ -23,7 +23,7 @@ wait Please soon
 ### ALL CAN USE 👇🏻
 
 - `/play <song name>` play song 
-- `/song<song name>` download songs you want quickly
+- `/song <song name>` download songs you want quickly
 
 ### ONLY ADMINS 👇🏻
 
