@@ -112,24 +112,24 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>𝗔𝗱𝗺𝗶𝗻 𝗧𝗼 𝗕𝗮𝗻𝗮 𝗗𝗲 𝗚𝗿𝗼𝘂𝗽 𝗠𝗲 𝗕𝗖!</b>")
+                        "<b>✅ 𝐌𝐚𝐤𝐞 𝐦𝐞 𝐀𝐝𝐦𝐢𝐧 𝐰𝐢𝐭𝐡 𝐅𝐮𝐥𝐥 𝐫𝐢𝐠𝐡𝐭𝐬 ... ❌ 𝐖𝐢𝐭𝐡𝐨𝐮𝐭 𝐫𝐞𝐦𝐚𝐢𝐧 𝐚𝐧𝐨𝐧𝐲𝐦𝐨𝐮𝐬!</b>")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**𝗛𝗮 𝗔𝗮 𝗚𝘆𝗮 𝗕𝗮𝗷𝗮𝗹𝗼 𝗦𝗼𝗻𝗴 𝗧𝘂𝗺 𝗕𝗵𝗶 𝗸𝘆𝗮 𝘆𝗮𝗮𝗱 𝗿𝗮𝗸𝗵𝗼𝗴𝗲😐**")
+                        message.chat.id, "**🔊 𝐄𝐧𝐣𝐨𝐲 ... 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐧𝐠 𝐭𝐨 𝐕𝐂**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>🛑 Fʟᴏᴏᴅ ᴡᴀɪᴛ ᴇʀʀᴏʀ 🛑</b> \n\ᴏʀ ʟᴏɴᴅᴇ {user.first_name}, ᴀssɪsᴛᴀɴᴛ ᴜsᴇʀʙᴏᴛ ᴄᴏᴜʟᴅɴ'ᴛ ᴊᴏɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴅᴜᴇ 2 ʜᴇᴀᴠʏ ᴊᴏɪɴ ʀᴇǫᴜᴇsᴛ. Mᴀᴋᴇ sᴜʀᴇ ᴜsᴇʀʙᴏᴛ ɴᴏᴛ ʙᴀɴɴᴇᴅ ɪɴ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ ᴀɴᴅ ᴊᴏɪɴ  @UNIVERSAL_OP_CHAT!")
+                        f"<b>🛑 Fʟᴏᴏᴅ ᴡᴀɪᴛ ᴇʀʀᴏʀ 🛑</b> \n\ᴏʀ ʟᴏɴᴅᴇ {user.first_name}, ᴀssɪsᴛᴀɴᴛ ᴜsᴇʀʙᴏᴛ ᴄᴏᴜʟᴅɴ'ᴛ ᴊᴏɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴅᴜᴇ 2 ʜᴇᴀᴠʏ ᴊᴏɪɴ ʀᴇǫᴜᴇsᴛ. Mᴀᴋᴇ sᴜʀᴇ ᴜsᴇʀʙᴏᴛ ɴᴏᴛ ʙᴀɴɴᴇᴅ ɪɴ ɢʀᴏᴜᴘ ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ʟᴀᴛᴇʀ ᴀɴᴅ ᴊᴏɪɴ  @teamDlt!")
     try:
         await USER.get_chat(chid)
     except:
         await lel.edit(
-            f"<i>𝗹𝗺𝗮𝗼 {user.first_name}, 𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝘂𝘀𝗲𝗿𝗯𝗼𝘁 𝗻𝗼𝘁 𝗶𝗻 𝗧𝗵𝗶𝘀 𝗖𝗵𝗮𝘁 𝗔𝘀𝗸 𝗔𝗱𝗺𝗶𝗻 𝗧𝗼 /play 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗙𝗼𝗿 𝗙𝗶𝗿𝘀𝘁 𝗧𝗶𝗺𝗲 𝗧𝗼 𝗔𝗱𝗱 𝗜𝘁.</i>")
+            f"<i>𝗹𝗺𝗮𝗼 {user.first_name},𝗔𝘀𝘀𝗶𝘀𝘁𝗮𝗻𝘁 𝘂𝘀𝗲𝗿𝗯𝗼𝘁 𝗻𝗼𝘁 𝗶𝗻 𝗧𝗵𝗶𝘀 𝗖𝗵𝗮𝘁 𝗔𝘀𝗸 𝗔𝗱𝗺𝗶𝗻 𝗧𝗼 /𝗽𝗹𝗮𝘆 𝗖𝗼𝗺𝗺𝗮𝗻𝗱 𝗙𝗼𝗿 𝗙𝗶𝗿𝘀𝘁 𝗧𝗶𝗺𝗲 𝗧𝗼 𝗔𝗱𝗱 𝗜𝘁 𝗧𝗵𝗮𝗻𝗸𝘀 𝗔𝗻𝗱 𝗱𝗼𝗻'𝘁 𝗳𝗼𝗿𝗴𝗲𝘁 𝘁𝗼 𝗷𝗼𝗶𝗻 @teamDlt.</i>")
         return
     
     audio = (message.reply_to_message.audio or message.reply_to_message.voice) if message.reply_to_message else None
@@ -138,12 +138,12 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 300) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"❌ 𝗦𝗼𝗻𝗴 𝗟𝗮𝗺𝗯𝗮 𝗛𝗮𝗶 {DURATION_LIMIT} 𝗖𝗵𝗮𝗹𝗲𝗴𝗮 𝗡𝗵𝗶 !"
+                f"❌ 𝐒𝐨𝐫𝐫𝐲 𝐦𝐮𝐬𝐢𝐜 𝐰𝐢𝐭𝐡 𝐝𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐦𝐨𝐫𝐞 𝐭𝐡𝐚𝐧 {DURATION_LIMIT} 𝐦𝐢𝐧𝐮𝐭𝐞𝐬, 𝐜𝐚𝐧'𝐭 𝐩𝐥𝐚𝐲 !"
             )
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://telegra.ph/file/caeb50039026a746e7252.jpg"
+        thumb_name = "https://te.legra.ph/file/4dc2f69d8b318a53d5735.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 300)
         views = "Locally added"
@@ -153,7 +153,7 @@ async def play(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="𝗖𝗵𝗮𝗻𝗻𝗲𝗹 🔊",
-                        url="https://@UNIVERSAL_OP_CHAT")
+                        url="https://@teamDlt_update")
                    
                 ]
             ]
@@ -193,15 +193,15 @@ async def play(_, message: Message):
                             text="𝗬𝗼𝘂𝘁𝘂𝗯𝗲 🎬",
                             url=f"{url}"),
                         InlineKeyboardButton(
-                            text="𝗯𝗮𝗻𝗮𝗻𝗮 𝗵𝗮𝗶 𝗮𝗮𝗽𝗻𝗮 𝘁𝗼 𝗷𝗼𝗶𝗻 𝗸𝗿𝗹𝗼 ",
-                            url=f"https://t.me/UNIVERSAL_OP_CHAT")
+                            text="𝐉𝐨𝐢𝐧 𝐆𝐫𝐨𝐮𝐩 ❤️ ",
+                            url=f"https://t.me/teamDlt")
 
                     ]
                 ]
             )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://telegra.ph/file/638c20c44ca418c8b2178.jpg"
+            thumb_name = "https://te.legra.ph/file/aed9f3f60b47c636e85b6.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -215,18 +215,18 @@ async def play(_, message: Message):
                     ]
                 )
         if (dur / 300) > DURATION_LIMIT:
-             await lel.edit(f"❌ 𝗩𝗶𝗱𝗲𝗼 𝗟𝗮𝗺𝗯𝗶 𝗛𝗮𝗶 {DURATION_LIMIT} 𝗖𝗵𝗮𝗹𝗲𝗴𝗶 𝗡𝗵𝗶!")
+             await lel.edit(f"❌ 𝐒𝐨𝐫𝐫𝐲 𝐦𝐮𝐬𝐢𝐜 𝐰𝐢𝐭𝐡 𝐝𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐦𝐨𝐫𝐞 𝐭𝐡𝐚𝐧 {DURATION_LIMIT} 𝐦𝐢𝐧𝐮𝐭𝐞𝐬, 𝐜𝐚𝐧'𝐭 𝐩𝐥𝐚𝐲 !")
              return
         requested_by = message.from_user.first_name
         await generate_cover(requested_by, title, views, duration, thumbnail)     
         file_path = await converter.convert(youtube.download(url))
     else:
         if len(message.command) < 2:
-            return await lel.edit("😕 **𝗔𝗿𝗲 𝗞𝗲𝗵𝗲𝗻𝗮 𝗞𝘆𝗮 𝗖𝗵𝗮𝘁𝗲 𝗛𝗼?**")
-        await lel.edit("🔎 **🤣𝗗𝗵𝘂𝗻𝗱 𝗥𝗵𝗮 𝗛𝘂 𝗕𝗖🤣**")
+            return await lel.edit("😕 **𝐜𝐨𝐮𝐥𝐝𝐧'𝐭 𝐟𝐢𝐧𝐝 𝐬𝐨𝐧𝐠 𝐲𝐨𝐮 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 ‼️  𝐩𝐥𝐞𝐚𝐬𝐞 𝐩𝐫𝐨𝐯𝐢𝐝𝐞 𝐭𝐡𝐞 𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐬𝐨𝐧𝐠 𝐧𝐚𝐦𝐞 𝐨𝐫 𝐢𝐧𝐜𝐥𝐮𝐝𝐞 𝐭𝐡𝐞 𝐚𝐫𝐭𝐢𝐬𝐭'𝐬 𝐧𝐚𝐦𝐞 𝐚𝐬 𝐰𝐞𝐥𝐥**")
+        await lel.edit("🎙 **𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠....**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit(" **𝗚𝗮𝗻𝗮 𝗠𝗶𝗹 𝗚𝘆𝗮 𝗦𝗸𝗶𝗽 𝗞𝗮𝗿 𝗦𝗮𝗸𝘁𝗲 𝗛𝗼**")
+        await lel.edit("🔊 **𝐄𝐧𝐣𝐨𝐲 ... 𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐢𝐧𝐠 𝐭𝐨 𝐕𝐂**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -249,7 +249,7 @@ async def play(_, message: Message):
                 
         except Exception as e:
             await lel.edit(
-                "❌ 𝗚𝗮𝗻𝗮 𝗡𝗵𝗶 𝗠𝗶𝗹𝗮.\n\n𝗗𝘂𝘀𝗿𝗮 𝗯𝗮𝗷𝗮𝗹𝗲 𝘆𝗮 𝗸𝗼𝗶 𝗼𝗿 𝗱𝗲𝗸𝗵𝗹𝗲."
+                "😕 𝐜𝐨𝐮𝐥𝐝𝐧'𝐭 𝐟𝐢𝐧𝐝 𝐬𝐨𝐧𝐠 𝐲𝐨𝐮 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝.\n\n𝐩𝐥𝐞𝐚𝐬𝐞 𝐩𝐫𝐨𝐯𝐢𝐝𝐞 𝐭𝐡𝐞 𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐬𝐨𝐧𝐠 𝐧𝐚𝐦𝐞 𝐨𝐫 𝐢𝐧𝐜𝐥𝐮𝐝𝐞 𝐭𝐡𝐞 𝐚𝐫𝐭𝐢𝐬𝐭'𝐬 𝐧𝐚𝐦𝐞 𝐚𝐬 𝐰𝐞𝐥𝐥 ‼️."
             )
             print(str(e))
             return
@@ -258,18 +258,24 @@ async def play(_, message: Message):
                 [
                     [
                         InlineKeyboardButton(
-                            text="𝗬𝗼𝘂𝘁𝘂𝗯𝗲 🎬",
+                            text="• Yᴏᴜᴛᴜʙᴇ •",
                             url=f"{url}"),
                         InlineKeyboardButton(
-                            text="𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 📥",
-                            url=f"{durl}")
+                            text="• Dᴏᴡɴʟᴏᴀᴅ •",
+                            url=f"{durl}"),
+                        InlineKeyboardButton(
+                            text="• Cʜᴀɴɴᴇʟ •",
+                            url=f"{t.me/teamDlt_update}"),
+                        InlineKeyboardButton(
+                            text="• Gʀᴏᴜᴘ •",
+                            url=f"{t.me/teamDlt}")
 
                     ]
                 ]
             )
         
         if (dur / 300) > DURATION_LIMIT:
-             await lel.edit(f"❌ 𝗩𝗶𝗱𝗲𝗼 𝗟𝗮𝗺𝗯𝗶 𝗛𝗮𝗶 {DURATION_LIMIT} 𝗡𝗵𝗶 𝗖𝗵𝗮𝗹𝗲𝗴𝗶 𝗟𝗺𝗮𝗼!")
+             await lel.edit(f"❌ 𝐒𝐨𝐫𝐫𝐲 𝐦𝐮𝐬𝐢𝐜 𝐰𝐢𝐭𝐡 𝐝𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐦𝐨𝐫𝐞 𝐭𝐡𝐚𝐧 {DURATION_LIMIT}  𝐦𝐢𝐧𝐮𝐭𝐞𝐬, 𝐜𝐚𝐧'𝐭 𝐩𝐥𝐚𝐲 !")
              return
         requested_by = message.from_user.first_name
         await generate_cover(requested_by, title, views, duration, thumbnail)  
@@ -279,7 +285,7 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
         photo="final.png", 
-        caption="**🎵 𝗦𝗼𝗻𝗴:** {}\n**🕒 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻:** {} min\n**👤 𝗔𝗱𝗱𝗲𝗱 𝗕𝘆 :** {}\n\n**#⃣ 𝗚𝗮𝗻𝗲 𝗸𝗮 𝗡𝗼:** {}".format(
+        caption="**🎵 𝗦𝗼𝗻𝗴:** {}\n**🕒 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻:** {} min\n**👤 𝗔𝗱𝗱𝗲𝗱 𝗕𝘆 :** {}\n\n**#⃣ 𝐒𝐨𝐧𝐠 𝐍𝐨.:** {}".format(
         title, duration, message.from_user.mention(), 𝗣𝗼𝘀𝗶𝘁𝗶𝗼𝗻
         ),
         reply_markup=keyboard)
@@ -290,7 +296,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="**🎵 𝗦𝗼𝗻𝗴:** {}\n**🕒 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻:** {} min\n**👤 𝗘𝘀𝗻𝗲 𝗟𝗮𝗴𝗮𝘆𝗮:** {}\n\n**▶️ 𝗘𝘀 𝗴𝗿𝗼𝘂𝗽 𝗺 𝗰𝗵𝗮𝗹 𝗿𝗵𝗮 `{}`...**".format(
+        caption="**🎵 𝗦𝗼𝗻𝗴:** {}\n**🕒 𝗗𝘂𝗿𝗮𝘁𝗶𝗼𝗻:** {} min\n**👤 𝐒𝐨𝐧𝐠 𝐁𝐲:** {}\n\n**▶️ 𝐆𝐫𝐨𝐮𝐩 𝐧𝐚𝐦𝐞 : `{}`...**".format(
         title, duration, message.from_user.mention(), message.chat.title
         ), )
         os.remove("final.png")
