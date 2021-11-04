@@ -1,8 +1,7 @@
 pyrogram
 tgcrypto
-py-tgcalls
+py-tgcalls==0.5.5
 python-dotenv
-yt-dlp
 youtube-search-python
 requests
 aiohttp
@@ -12,4 +11,14 @@ youtube-search
 search-engine-parser
 ffmpeg-python
 pillow
-ujson
+future
+psutil
+wget
+motor
+dnspython
+speedtest-cli
+yt-dlp
+httpx==0.13.3
+heroku3
+gitpython
+pymongo
