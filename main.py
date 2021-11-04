@@ -1,7 +1,7 @@
 import requests
 from pyrogram import Client as Bot
 
-from callsmusic import run
+from callsmusic.callmusic import run
 from config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
 from handlers import __version__
 
