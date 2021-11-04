@@ -1,6 +1,5 @@
 import requests
 from pyrogram import Client as Bot
-
 from callsmusic import run
 from config import API_HASH, API_ID, BG_IMAGE, BOT_TOKEN
 from handlers import __version__
@@ -17,8 +16,6 @@ bot = Bot(
     bot_token=BOT_TOKEN,
     plugins=dict(root="handlers"),
 )
-
-print(f"[INFO]: TEAMDLT MUSIC v{__version__} STARTED !")
 
 bot.start()
 run()
