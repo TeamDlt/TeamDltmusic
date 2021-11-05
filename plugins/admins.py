@@ -46,7 +46,7 @@ async def stop(_, message: Message):
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
                              photo="https://te.legra.ph/file/4818cdec315d449acc588.jpg", 
-                             caption="❌ **𝐒𝐨𝐧𝐠 𝐢𝐬 𝐧𝐨𝐰 𝐬𝐭𝐨𝐩𝐩𝐞𝐝 ....\n use /play for new song**"
+                             caption="❌ **𝐒𝐨𝐧𝐠 𝐢𝐬 𝐧𝐨𝐰 𝐬𝐭𝐨𝐩𝐩𝐞𝐝 ....\n use /play 𝐅𝐨𝐫 𝐧𝐞𝐰 𝐬𝐨𝐧𝐠**"
     )
 
 
@@ -96,5 +96,5 @@ async def admincache(client, message: Message):
 
     await message.reply_photo(
                               photo="https://te.legra.ph/file/4dc2f69d8b318a53d5735.jpg",
-                              caption="**Reloaded\n Admin List updated**"
+                              caption="**ʀᴇʟᴏᴀᴅᴇᴅ\n ᴀᴅᴍɪɴ ʟɪsᴛ ᴜᴘᴅᴀᴛᴇᴅ ᴊᴏɪɴ @teamDlt ғᴏʀ ᴍᴏʀᴇ ᴜᴘᴅᴀᴛᴇ**"
     )
