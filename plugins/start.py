@@ -41,20 +41,20 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Pʟᴀʏ Mᴜsɪᴄ Fʀᴇᴇʟ�
             [
                 [
                     InlineKeyboardButton(
-                        "𝐂𝐨𝐦𝐦𝐚𝐧𝐝 𝐋𝐢𝐬𝐭🧰", url="https://telegra.ph/text-10-24")
+                        "• ᴄᴏᴍᴍᴀɴᴅs •", url="https://telegra.ph/text-10-24")
                   ],[
                     InlineKeyboardButton(
-                        "𝐇𝐞𝐥𝐩", url="t.me/Somyajeet_Mishra")
+                        "• ʜᴇʟᴘ •", url="t.me/Somyajeet_Mishra")
                   ],[
                     InlineKeyboardButton(
-                       " 𝐒𝐮𝐩𝐩𝐨𝐫𝐭👿", url="https://t.me/teamDlt"
+                       "• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/teamDlt"
                     ),
                     InlineKeyboardButton(
-                        "𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url="https://t.me/teamDlt_update"
+                        "• ᴜᴘᴅᴀᴛᴇs •", url="https://t.me/teamDlt_update"
                     )
                 ],[
                     InlineKeyboardButton(
-                        "➕ 𝐀𝐝𝐝 𝐌𝐞 𝐓𝐨 𝐘𝐨𝐮𝐫 𝐆𝐫𝐨𝐮𝐩➕",
+                        "➕ɢʀᴏᴜᴘ ᴍᴀɪ ᴀᴅᴅ ᴋᴀʀᴏ➕",
                         url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ]
