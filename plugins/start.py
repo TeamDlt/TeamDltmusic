@@ -33,7 +33,7 @@ async def _human_time_duration(seconds):
 async def start(_, message: Message):
         await message.reply_sticker("CAACAgEAAx0CaJTWBAABAaZKYYVpAt94U3bXdW6Oh5rNJI-QrsoAAuYAA1EpDTnakgn2GsThDh4E")
         await message.reply_text(
-        f"""**Hey, I'm {bn} 🎀
+        f"""**Hey, I'm {bn} ❤️
 I Cᴀɴ Pʟᴀʏ Mᴜsɪᴄ Iɴ Yᴏᴜʀ Gʀᴏᴜᴩ Vᴏɪᴄᴇ Cʜᴀᴛ. Dᴇᴠᴇʟᴏᴩᴇᴅ Bʏ [𝚃𝚎𝚊𝚖𝙳𝚕𝚝-𝙳𝚎𝚟𝚜](https://t.me/teamDlt_developers).
 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Pʟᴀʏ Mᴜsɪᴄ Fʀᴇᴇʟʏ!**
         """,
@@ -41,10 +41,13 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Pʟᴀʏ Mᴜsɪᴄ Fʀᴇᴇʟ�
             [
                 [
                     InlineKeyboardButton(
-                        "• ᴄᴏᴍᴍᴀɴᴅs •", url="https://telegra.ph/text-10-24")
+                        "• ᴄᴏᴍᴍᴀɴᴅs •", url="https://te.legra.ph/file/e4018cc7caabc1498b15f.jpg")
                   ],[
                     InlineKeyboardButton(
                         "• ʜᴇʟᴘ •", url="t.me/Somyajeet_Mishra")
+                    InlineKeyboardButton(
+                       "• ᴅᴇᴠᴇʟᴏᴘᴇʀ •", url="https://t.me/teamDlt"
+                    )
                   ],[
                     InlineKeyboardButton(
                        "• sᴜᴘᴘᴏʀᴛ •", url="https://t.me/teamDlt"
