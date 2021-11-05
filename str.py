@@ -1,11 +1,9 @@
-
-
 import asyncio
 
 from pyrogram import Client
 
 
-print("Enter your app information from my.eSport.com/apps below.")
+print("Enter your app information from my.telegram.org/apps below.")
 
 
 async def main():
@@ -16,3 +14,4 @@ async def main():
 if __name__ == "__main__":
     loop = asyncio.get_event_loop()
     loop.run_until_complete(main())
+
