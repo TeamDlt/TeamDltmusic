@@ -18,8 +18,8 @@ from pytgcalls.types.input_stream import InputAudioStream
 async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/dd6814e241bfc4c0255cd.jpg", 
-                             caption="**⏸ Music Paused.\n use /resume**"
+                             photo="https://te.legra.ph/file/60fbe3f881e34e43c4066.jpg", 
+                             caption="**⏸ 𝐌𝐮𝐬𝐢𝐜 𝐏𝐚𝐮𝐬𝐞𝐝.\n use /resume**"
     )
 
 
@@ -30,7 +30,7 @@ async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/d0f2dd5b7519bb5444139.jpg", 
-                             caption="**▶️ Music Resumed.\n use /pause**"
+                             caption="**‼️ 𝐒𝐨𝐧𝐠 𝐢𝐬 𝐧𝐨𝐰 𝐫𝐞𝐬𝐮𝐦𝐞𝐝 ....\n use /pause**"
     )
 
 
@@ -45,8 +45,8 @@ async def stop(_, message: Message):
 
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/8d22aa7d53b6acb9a125e.jpg", 
-                             caption="❌ **Stopped Streaming\n use /play for new song**"
+                             photo="https://te.legra.ph/file/4818cdec315d449acc588.jpg", 
+                             caption="❌ **𝐒𝐨𝐧𝐠 𝐢𝐬 𝐧𝐨𝐰 𝐬𝐭𝐨𝐩𝐩𝐞𝐝 ....\n use /play for new song**"
     )
 
 
@@ -60,7 +60,7 @@ async def skip(_, message: Message):
     for x in callsmusic.pytgcalls.active_calls:
         ACTV_CALL.append(int(x.chat_id))
     if int(chat_id) not in ACTV_CALL:
-        await message.reply_text("❗ Nothing is playing to skip!")
+        await message.reply_text("‼️ 𝐍𝐨𝐭𝐡𝐢𝐧𝐠 𝐢𝐬 𝐩𝐥𝐚𝐲𝐢𝐧𝐠 𝐢𝐧 𝐕𝐂 ....😕")
     else:
         callsmusic.queues.task_done(chat_id)
 
@@ -77,8 +77,8 @@ async def skip(_, message: Message):
     if not qeue:
         return
     await message.reply_photo(
-                             photo="https://telegra.ph/file/96129f4d0e984d2432e55.jpg", 
-                             caption=f'- Skipped **{skip[0]}**\n- Now Playing **{qeue[0][0]}**'
+                             photo="https://te.legra.ph/file/2ab51e4f686fef375bfad.jpg", 
+                             caption=f'-🎥 𝐬𝐤𝐢𝐩𝐩𝐞𝐝 **{skip[0]}**\n- 𝐄𝐧𝐣𝐨𝐲... **{qeue[0][0]}**'
    ) 
 
 
@@ -95,6 +95,6 @@ async def admincache(client, message: Message):
     )
 
     await message.reply_photo(
-                              photo="https://telegra.ph/file/d881ea9de7620ecc36d08.jpg",
+                              photo="https://te.legra.ph/file/4dc2f69d8b318a53d5735.jpg",
                               caption="**Reloaded\n Admin List updated**"
     )
