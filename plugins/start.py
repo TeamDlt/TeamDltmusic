@@ -31,6 +31,7 @@ async def _human_time_duration(seconds):
 
 @Client.on_message(other_filters2)
 async def start(_, message: Message):
+        await message.reply_sticker("CAACAgEAAx0CaJTWBAABAaZKYYVpAt94U3bXdW6Oh5rNJI-QrsoAAuYAA1EpDTnakgn2GsThDh4E")
         await message.reply_text(
         f"""**Hey, I'm {bn} 🎀
 I Cᴀɴ Pʟᴀʏ Mᴜsɪᴄ Iɴ Yᴏᴜʀ Gʀᴏᴜᴩ Vᴏɪᴄᴇ Cʜᴀᴛ. Dᴇᴠᴇʟᴏᴩᴇᴅ Bʏ [𝚃𝚎𝚊𝚖𝙳𝚕𝚝-𝙳𝚎𝚟𝚜](https://t.me/teamDlt_developers).
@@ -46,10 +47,10 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Pʟᴀʏ Mᴜsɪᴄ Fʀᴇᴇʟ�
                         "𝐇𝐞𝐥𝐩", url="t.me/Somyajeet_Mishra")
                   ],[
                     InlineKeyboardButton(
-                       " 𝐒𝐮𝐩𝐩𝐨𝐫𝐭👿", url="https://t.me/DecodeSupport"
+                       " 𝐒𝐮𝐩𝐩𝐨𝐫𝐭👿", url="https://t.me/teamDlt"
                     ),
                     InlineKeyboardButton(
-                        "𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url="https://t.me/DeecodeBots"
+                        "𝐔𝐩𝐝𝐚𝐭𝐞𝐬", url="https://t.me/teamDlt_update"
                     )
                 ],[
                     InlineKeyboardButton(
