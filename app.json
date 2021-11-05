@@ -1,8 +1,8 @@
 {
   "name": "TeamDltmusic",
-  "logo": "https://te.legra.ph/file/6dcdb51eec92071f66d38.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram", "music-bot", "telegram-bot", "vcbot", "bot"],
+  "logo": "https://te.legra.ph/file/6dcdb51eec92071f66d38.jpg",
   "repository": "https://github.com/TeamDlt/TeamDltmusic",
   "stack": "container",
   "env": {
@@ -23,6 +23,14 @@
       "description": "App ID from my.telegram.org/apps",
       "required": true
     },
+    "HEROKU_API_KEY": {
+      "description": "your heroku api key get it from https://dashboard.heroku.com/account",
+      "required": true
+    },
+    "HEROKU_APP_NAME": {
+      "description": "Your heroku appname",
+      "required": true
+    },
     "API_HASH": {
       "description": "App hash from my.telegram.org/apps",
       "required": true
@@ -35,6 +43,18 @@
       "description": "Max audio duration limit for downloads (minutes).",
       "required": true,
       "value": "70"
-    }
+    },
+    "BOT_USERNAME": {
+      "description": "USERNAME BOT",
+      "required": true
+    },
+    "OWNER_ID": {
+      "description": "Owner userid",
+      "required": true
+    },
+    "ASSISTANT_USERNAME": {
+      "description": "USERNAME ASSISTANT",
+      "required": true
+    }     
   }
 }
