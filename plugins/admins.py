@@ -30,7 +30,7 @@ async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
                              photo="https://telegra.ph/file/d0f2dd5b7519bb5444139.jpg", 
-                             caption="**‼️ 𝐒𝐨𝐧𝐠 𝐢𝐬 𝐧𝐨𝐰 𝐫𝐞𝐬𝐮𝐦𝐞𝐝 ....\n use /pause**"
+                             caption="‼️ **𝐒𝐨𝐧𝐠 𝐢𝐬 𝐧𝐨𝐰 𝐫𝐞𝐬𝐮𝐦𝐞𝐝 ....\n use /pause**"
     )
 
 
