@@ -178,7 +178,7 @@ async def play(_, message: Message):
     if message.chat.id in DISABLED_GROUPS:
         await message.reply("**maintainence mode is on, ask admin to disable it!**")
         return
-    lel = await message.reply("🔄 **Processing...**")
+    lel = await message.reply("🎙 **𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠...**")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -186,7 +186,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "DeCode_Assistant"
+        user.first_name = "TeamDlt_Assistant"
     usar = user
     wew = usar.id
     try:
@@ -201,7 +201,7 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b>Add me as admin of yor group first</b>",
+                        "<b>ʀᴇᴍᴇᴍʙᴇʀ ᴛᴏ ᴀᴅᴅ ᴀssɪsᴛᴀɴᴛ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ</b>",
                     )
                     return
 
@@ -209,10 +209,10 @@ async def play(_, message: Message):
                     await USER.join_chat(invitelink)
                     await USER.send_message(
                         message.chat.id,
-                        "Assistant joined this group for playing music in VC",
+                        "✅ Assɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ ᴛʜɪs ɢʀᴏᴜᴘ ғᴏʀ ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ ɪɴ VC",
                     )
                     await lel.edit(
-                        "<b>Assistant joined this chat</b>",
+                        "<b>✅ Assɪsᴛᴀɴᴛ ᴊᴏɪɴᴇᴅ ᴛʜɪs ɢʀᴏᴜᴘ ғᴏʀ ᴘʟᴀʏɪɴɢ ᴍᴜsɪᴄ ɪɴ VC</b>",
                     )
 
                 except UserAlreadyParticipant:
@@ -226,7 +226,7 @@ async def play(_, message: Message):
         # lmoa = await client.get_chat_member(chid,wew)
     except:
         await lel.edit(
-            f"<i>Hey {user.first_name}, assistant userbot is not in this chat, ask admin to send /play command for first time to add it.</i>"
+            f"<i>ʜᴇʏ {user.first_name}, ᴀssɪsᴛᴀɴᴛ ᴜsᴇʀʙᴏᴛ ɪs ɴᴏᴛ ɪɴ ᴛʜɪs ᴄʜᴀᴛ, ᴀsᴋ ᴀᴅᴍɪɴ ᴛᴏ sᴇɴᴅ /play ᴄᴏᴍᴍᴀɴᴅ ғᴏʀ ғɪʀsᴛ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ɪᴛ.</i>"
         )
         return
 
@@ -240,7 +240,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"❌ Videos longer than {DURATION_LIMIT} minutes aren't allowed to play!"
+                f"❌ 𝐒𝐨𝐫𝐫𝐲 𝐦𝐮𝐬𝐢𝐜 𝐰𝐢𝐭𝐡 𝐝𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐦𝐨𝐫𝐞 𝐭𝐡𝐚𝐧 {DURATION_LIMIT}  𝐦𝐢𝐧𝐮𝐭𝐞𝐬, 𝐜𝐚𝐧'𝐭 𝐩𝐥𝐚𝐲 !"
             )
 
         file_name = get_file_name(audio)
@@ -253,8 +253,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚨 Support", url="t.me/decodesupport"),
-                    InlineKeyboardButton("📡 Updates", url="t.me/DeeCodebots"),
+                    InlineKeyboardButton("🚨 Support", url="t.me/teamDlt"),
+                    InlineKeyboardButton("📡 Updates", url="t.me/teamDlt_update"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -291,8 +291,8 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🚨 Support", url="t.me/decodesupport"),
-                        InlineKeyboardButton("📡 Updates", url="t.me/DeeCodebots"),
+                        InlineKeyboardButton("🚨 Support", url="t.me/teamDlt"),
+                        InlineKeyboardButton("📡 Updates", url="t.me/teamDlt_update"),
                     ],
                     [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
                 ]
@@ -309,7 +309,7 @@ async def play(_, message: Message):
 
         if (dur / 60) > DURATION_LIMIT:
             await lel.edit(
-                f"❌ Videos longer than {DURATION_LIMIT} minutes aren't allowed to play!"
+                f"❌ 𝐒𝐨𝐫𝐫𝐲 𝐦𝐮𝐬𝐢𝐜 𝐰𝐢𝐭𝐡 𝐝𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐦𝐨𝐫𝐞 𝐭𝐡𝐚𝐧 {DURATION_LIMIT} 𝐦𝐢𝐧𝐮𝐭𝐞𝐬, 𝐜𝐚𝐧'𝐭 𝐩𝐥𝐚𝐲 !"
             )
             return
         requested_by = message.from_user.first_name
@@ -318,12 +318,12 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "🧐 **Song not found! Try searching with the correct title\nExample » /play In The End\n\nChannel : @DeCodeMusicBot**"
+                "😕 **𝐜𝐨𝐮𝐥𝐝𝐧'𝐭 𝐟𝐢𝐧𝐝 𝐬𝐨𝐧𝐠 𝐲𝐨𝐮 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 ‼️  𝐩𝐥𝐞𝐚𝐬𝐞 𝐩𝐫𝐨𝐯𝐢𝐝𝐞 𝐭𝐡𝐞 𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐬𝐨𝐧𝐠 𝐧𝐚𝐦𝐞 𝐨𝐫 𝐢𝐧𝐜𝐥𝐮𝐝𝐞 𝐭𝐡𝐞 𝐚𝐫𝐭𝐢𝐬𝐭'𝐬 𝐧𝐚𝐦𝐞 𝐚𝐬 𝐰𝐞𝐥𝐥\nExample » /play In The End\n\nChannel : @teamDlt_update**"
             )
-        await lel.edit("🔎 **Finding the song...**")
+        await lel.edit("🔎 **𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭 𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠....**")
         query = message.text.split(None, 1)[1]
         # print(query)
-        await lel.edit("🎵 **Processing sounds...**")
+        await lel.edit("🎵 **𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐦𝐮𝐬𝐢𝐜...**")
         try:
             results = YoutubeSearch(query, max_results=1).to_dict()
             url = f"https://youtube.com{results[0]['url_suffix']}"
@@ -346,7 +346,7 @@ async def play(_, message: Message):
 
         except Exception as e:
             await lel.edit(
-                "❌ Song not found.\n\nTry another song or maybe spell it properly."
+                "❌ 𝐜𝐨𝐮𝐥𝐝𝐧'𝐭 𝐟𝐢𝐧𝐝 𝐬𝐨𝐧𝐠 𝐲𝐨𝐮 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝.\n\n𝐩𝐥𝐞𝐚𝐬𝐞 𝐩𝐫𝐨𝐯𝐢𝐝𝐞 𝐭𝐡𝐞 𝐜𝐨𝐫𝐫𝐞𝐜𝐭 𝐬𝐨𝐧𝐠 𝐧𝐚𝐦𝐞 𝐨𝐫 𝐢𝐧𝐜𝐥𝐮𝐝𝐞 𝐭𝐡𝐞 𝐚𝐫𝐭𝐢𝐬𝐭'𝐬 𝐧𝐚𝐦𝐞 𝐚𝐬 𝐰𝐞𝐥𝐥."
             )
             print(str(e))
             return
@@ -354,8 +354,8 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚨 Support", url="t.me/decodesupport"),
-                    InlineKeyboardButton("📡 Updates", url="t.me/DeeCodebots"),
+                    InlineKeyboardButton("🚨 Support", url="t.me/teamDlt"),
+                    InlineKeyboardButton("📡 Updates", url="t.me/teamDlt_update"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
