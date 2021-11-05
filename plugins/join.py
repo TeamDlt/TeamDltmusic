@@ -1,5 +1,3 @@
-# Credit DaisyXMusic, Changes By Blaze, Improve Code By Decode
-
 from pyrogram import Client, filters
 from pyrogram.errors import UserAlreadyParticipant
 import asyncio
@@ -17,20 +15,20 @@ async def addchannel(client, message):
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<b>Add me admin first</b>",
+            "<b>𝐌𝐚𝐤𝐞 𝐦𝐞 𝐀𝐝𝐦𝐢𝐧 𝐰𝐢𝐭𝐡 𝐅𝐮𝐥𝐥 𝐫𝐢𝐠𝐡𝐭𝐬</b>",
         )
         return
 
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "@DeCode_Assistant"
+        user.first_name = "@TeamDlt_Assistant"
 
     try:
         await USER.join_chat(invitelink)
     except UserAlreadyParticipant:
         await message.reply_text(
-            f"<b>{user.first_name} Allready join this Group</b>",
+            f"<b>{user.first_name} 𝐀𝐥𝐫𝐞𝐚𝐝𝐲 𝐣𝐨𝐢𝐧 𝐭𝐡𝐢𝐬 𝐆𝐫𝐨𝐮𝐩</b>",
         )
     except Exception as e:
         print(e)
@@ -40,7 +38,7 @@ async def addchannel(client, message):
         )
         return
     await message.reply_text(
-        f"<b>{user.first_name} Join Seccsesfully</b>",
+        f"<b>{user.first_name} 𝐉𝐨𝐢𝐧𝐞𝐝</b>",
     )
 
 
