@@ -20,7 +20,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 @errors
 async def stream(_, message: Message):
 
-    lel = await message.reply("🔁 **𝐩𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠** 𝐬𝐨𝐮𝐧𝐝...")
+    lel = await message.reply("🎙 **𝐏𝐥𝐞𝐚𝐬𝐞 𝐖𝐚𝐢𝐭**  𝐒𝐞𝐚𝐫𝐜𝐡𝐢𝐧𝐠....")
     sender_id = message.from_user.id
     sender_name = message.from_user.first_name
 
@@ -29,9 +29,9 @@ async def stream(_, message: Message):
                 [
                     InlineKeyboardButton(
                         text="✨ ɢʀᴏᴜᴘ",
-                        url=f"https://t.me/Decodesupport"),
+                        url=f"https://t.me/teamDlt"),
                     InlineKeyboardButton(
-                        text="🌻 ᴄʜᴀɴɴᴇʟ",
+                        text="📢 ᴄʜᴀɴɴᴇʟ",
                         url=f"https://t.me/{UPDATES_CHANNEL}")
                 ]
             ]
@@ -43,7 +43,7 @@ async def stream(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"𝐕𝐢𝐝𝐞𝐨𝐬 𝐥𝐨𝐧𝐠𝐞𝐫 𝐭𝐡𝐚𝐧 {DURATION_LIMIT} 𝐦𝐢𝐧𝐮𝐭𝐞(𝐬) 𝐚𝐫𝐞𝐧'𝐭 𝐚𝐥𝐥𝐨𝐰𝐞𝐝 𝐭𝐨 𝐩𝐥𝐚𝐲!"
+                f"❌ 𝐒𝐨𝐫𝐫𝐲 𝐦𝐮𝐬𝐢𝐜 𝐰𝐢𝐭𝐡 𝐝𝐮𝐫𝐚𝐭𝐢𝐨𝐧 𝐦𝐨𝐫𝐞 𝐭𝐡𝐚𝐧 {DURATION_LIMIT} 𝐦𝐢𝐧𝐮𝐭𝐞(𝐬) 𝐚𝐫𝐞𝐧'𝐭 𝐚𝐥𝐥𝐨𝐰𝐞𝐝 𝐭𝐨 𝐩𝐥𝐚𝐲!"
             )
 
         file_name = get_file_name(audio)
@@ -63,7 +63,7 @@ async def stream(_, message: Message):
         await message.reply_photo(
         photo=f"{QUE_IMG}",
         reply_markup=keyboard,
-        caption=f"#⃣  𝐲𝐨𝐮𝐫 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐬𝐨𝐧𝐠 𝐰𝐚𝐬 𝐚𝐝𝐝𝐞𝐝 𝐭𝐨 *𝐪𝐮𝐞𝐮𝐞* 𝐚𝐭 𝐩𝐨𝐬𝐢𝐭𝐢𝐨𝐧 {position}!\n\n⚡ __𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐃𝐞𝐂𝐨𝐝𝐞 𝐀.𝐈__")
+        caption=f"#⃣  𝐲𝐨𝐮𝐫 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐬𝐨𝐧𝐠 𝐰𝐚𝐬 𝐚𝐝𝐝𝐞𝐝 𝐭𝐨 *𝐪𝐮𝐞𝐮𝐞* 𝐚𝐭 𝐩𝐨𝐬𝐢𝐭𝐢𝐨𝐧 {position}!\n\n⚡ __𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐓𝐞𝐚𝐦𝐃𝐥𝐭 𝐀.𝐈__")
         return await lel.delete()
     else:
         await callsmusic.pytgcalls.join_group_call(message.chat.id, InputAudioStream(file_path))
@@ -71,6 +71,6 @@ async def stream(_, message: Message):
         await message.reply_photo(
         photo=f"{AUD_IMG}",
         reply_markup=keyboard,
-        caption=f"🎧 **𝐍𝐨𝐰 𝐩𝐥𝐚𝐲𝐢𝐧𝐠** 𝐚 𝐬𝐨𝐧𝐠 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐛𝐲 {costumer}!\n\n⚡ __𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐃𝐞𝐂𝐨𝐝𝐞 𝐀.𝐈__"
+        caption=f"🎧 **𝐍𝐨𝐰 𝐩𝐥𝐚𝐲𝐢𝐧𝐠** 𝐚 𝐬𝐨𝐧𝐠 𝐫𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐛𝐲 {costumer}!\n\n⚡ __𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐛𝐲 𝐓𝐞𝐚𝐦𝐃𝐥𝐭 𝐀.𝐈__"
         )
         return await lel.delete()
