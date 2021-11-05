@@ -46,7 +46,7 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Pʟᴀʏ Mᴜsɪᴄ Fʀᴇᴇʟ�
                     InlineKeyboardButton(
                         "• ʜᴇʟᴘ •", url="t.me/Somyajeet_Mishra")
                     InlineKeyboardButton(
-                       "• ᴅᴇᴠᴇʟᴏᴘᴇʀ •", url="https://t.me/teamDlt"
+                       "• ᴀssɪsᴛᴀɴᴛ •", url=f"https://t.me/{ASSISTANT_USERNAME}"
                     )
                   ],[
                     InlineKeyboardButton(
