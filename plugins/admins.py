@@ -18,7 +18,7 @@ from pytgcalls.types.input_stream import InputAudioStream
 async def pause(_, message: Message):
     await callsmusic.pytgcalls.pause_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/60fbe3f881e34e43c4066.jpg", 
+                             photo="https://te.legra.ph/file/32549030e7a6ab5f51fcb.jpg", 
                              caption="**⏸ 𝐌𝐮𝐬𝐢𝐜 𝐏𝐚𝐮𝐬𝐞𝐝.\n use /resume**"
     )
 
@@ -29,7 +29,7 @@ async def pause(_, message: Message):
 async def resume(_, message: Message):
     await callsmusic.pytgcalls.resume_stream(message.chat.id)
     await message.reply_photo(
-                             photo="https://telegra.ph/file/d0f2dd5b7519bb5444139.jpg", 
+                             photo="https://te.legra.ph/file/71304e805e0c705ba5cd2.jpg", 
                              caption="‼️ **𝐒𝐨𝐧𝐠 𝐢𝐬 𝐧𝐨𝐰 𝐫𝐞𝐬𝐮𝐦𝐞𝐝 ....\n use /pause**"
     )
 
@@ -45,7 +45,7 @@ async def stop(_, message: Message):
 
     await callsmusic.pytgcalls.leave_group_call(message.chat.id)
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/4818cdec315d449acc588.jpg", 
+                             photo="https://te.legra.ph/file/562011c3ea30f9d99b0c3.jpg", 
                              caption="❌ **𝐒𝐨𝐧𝐠 𝐢𝐬 𝐧𝐨𝐰 𝐬𝐭𝐨𝐩𝐩𝐞𝐝 ....\n use /play 𝐅𝐨𝐫 𝐧𝐞𝐰 𝐬𝐨𝐧𝐠**"
     )
 
@@ -77,7 +77,7 @@ async def skip(_, message: Message):
     if not qeue:
         return
     await message.reply_photo(
-                             photo="https://te.legra.ph/file/2ab51e4f686fef375bfad.jpg", 
+                             photo="https://te.legra.ph/file/3ea509f6ad6837f6e6ab3.jpg", 
                              caption=f'-🎥 𝐬𝐤𝐢𝐩𝐩𝐞𝐝 **{skip[0]}**\n- 𝐄𝐧𝐣𝐨𝐲... **{qeue[0][0]}**'
    ) 
 
