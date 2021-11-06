@@ -33,9 +33,10 @@
 
 
 # 𝗦𝗽𝗲𝗰𝗶𝗮𝗹 𝗖𝗿𝗲𝗱𝗶𝘁 𝗚𝗼𝗲𝘀 𝘁𝗼 👑
+- [LOGO HITESH](t.me/be_with_them_who_make_you_happy)
 
-- [SJM](t.me/Somyajeet_Mishra)
+- [DEV SJM](t.me/Somyajeet_Mishra)
 
-- [DEVIL QUEEN](t.me/aditi_005)
+- [LOGO DEVIL QUEEN](t.me/aditi_005)
 
 ## .•♫•♬• 𝗧𝗵𝗮𝗻𝗸𝘀 𝗙𝗼𝗿 𝗨𝘀𝗶𝗻𝗴 𝗧𝗲𝗮𝗺𝗗𝗹𝘁 𝗠𝘂𝘀𝗶𝗰 𝗿𝗲𝗽𝗼 •♫•♬•
