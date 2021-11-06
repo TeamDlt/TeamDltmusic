@@ -253,8 +253,12 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚨 Support", url="t.me/teamDlt"),
-                    InlineKeyboardButton("📡 Updates", url="t.me/teamDlt_update"),
+                    InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ •", url="t.me/teamDlt"),
+                    InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇs •", url="t.me/teamDlt_update"),
+                ],
+                [
+                    InlineKeyboardButton("• ʏᴏᴜᴛᴜʙᴇ •", url=f"{url}"),
+                    InlineKeyboardButton("• ᴅᴏᴡɴʟᴏᴀᴅ •", url=f"{durl}"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
@@ -291,11 +295,15 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🚨 Support", url="t.me/teamDlt"),
-                        InlineKeyboardButton("📡 Updates", url="t.me/teamDlt_update"),
-                    ],
-                    [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
-                ]
+                    InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ •", url="t.me/teamDlt"),
+                    InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇs •", url="t.me/teamDlt_update"),
+                ],
+                [
+                    InlineKeyboardButton("• ʏᴏᴜᴛᴜʙᴇ •", url=f"{url}"),
+                    InlineKeyboardButton("• ᴅᴏᴡɴʟᴏᴀᴅ •", url=f"{durl}"),
+                ],
+                [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
+            ]
             )
 
         except Exception as e:
@@ -353,9 +361,13 @@ async def play(_, message: Message):
 
         keyboard = InlineKeyboardMarkup(
             [
+                 [
+                    InlineKeyboardButton("• sᴜᴘᴘᴏʀᴛ •", url="t.me/teamDlt"),
+                    InlineKeyboardButton("• ᴜᴘᴅᴀᴛᴇs •", url="t.me/teamDlt_update"),
+                ],
                 [
-                    InlineKeyboardButton("🚨 Support", url="t.me/teamDlt"),
-                    InlineKeyboardButton("📡 Updates", url="t.me/teamDlt_update"),
+                    InlineKeyboardButton("• ʏᴏᴜᴛᴜʙᴇ •", url=f"{url}"),
+                    InlineKeyboardButton("• ᴅᴏᴡɴʟᴏᴀᴅ •", url=f"{durl}"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
             ]
