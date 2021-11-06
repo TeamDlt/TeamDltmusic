@@ -55,8 +55,8 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Pʟᴀʏ Mᴜsɪᴄ Fʀᴇᴇʟ�
                     )
                 ],[
                     InlineKeyboardButton(
-                        "➕ɢʀᴏᴜᴘ ᴍᴀɪ ᴀᴅᴅ ᴋᴀʀᴏ➕",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
+                        "• sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ •",
+                        url="https://github.com/TeamDlt/TeamDltmusic",
                     )
                 ]
             ]
