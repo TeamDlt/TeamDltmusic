@@ -5,7 +5,7 @@ from VCPlayBot.config import SUDO_USERS
 from VCPlayBot.config import PMPERMIT
 from pyrogram import filters
 from pyrogram.types import Message
-from VCPlayBot.services.callsmusic import client as USER
+from Client.callsmusic import client as USER
 
 PMSET =True
 pchats = []
