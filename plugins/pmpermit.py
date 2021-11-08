@@ -1,8 +1,8 @@
 
 from pyrogram import Client
 import asyncio
-from VCPlayBot.config import SUDO_USERS
-from VCPlayBot.config import PMPERMIT
+from config import SUDO_USERS
+from config import PMPERMIT
 from pyrogram import filters
 from pyrogram.types import Message
 from Client.callsmusic import client as USER
