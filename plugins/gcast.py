@@ -11,7 +11,7 @@ from aiohttp import ClientSession
 from config import SUDO_USERS, BOT_TOKEN
 from pyrogram.errors import UserAlreadyParticipant
 
-from VCPlayBot.services.callsmusic.callsmusic import client as USER
+from Client.callsmusic import client as USER
 from config import SUDO_USERS
 
 @Client.on_message(filters.command(["broadcast"]))
