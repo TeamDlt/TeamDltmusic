@@ -45,7 +45,7 @@
       "value": "70"
     },
     "BOT_USERNAME": {
-      "description": "USERNAME BOT",
+      "description": "USERNAME BOT Without '@'",
       "required": true
     },
     "OWNER_ID": {
@@ -53,7 +53,7 @@
       "required": true
     },
     "ASSISTANT_USERNAME": {
-      "description": "USERNAME ASSISTANT",
+      "description": "USERNAME ASSISTANT Without '@'",
       "required": true
     }     
   }
