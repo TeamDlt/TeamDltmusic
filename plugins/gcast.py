@@ -8,11 +8,11 @@ from pyrogram.types import Dialog
 from pyrogram.types import Chat
 from pyrogram.types import Message
 from aiohttp import ClientSession
-from VCPlayBot.config import SUDO_USERS, BOT_TOKEN
+from config import SUDO_USERS, BOT_TOKEN
 from pyrogram.errors import UserAlreadyParticipant
 
 from VCPlayBot.services.callsmusic.callsmusic import client as USER
-from VCPlayBot.config import SUDO_USERS
+from config import SUDO_USERS
 
 @Client.on_message(filters.command(["broadcast"]))
 async def broadcast(_, message: Message):
