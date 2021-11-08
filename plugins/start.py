@@ -44,7 +44,7 @@ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴩ Aɴᴅ Pʟᴀʏ Mᴜsɪᴄ Fʀᴇᴇʟ�
                         "• ᴄᴏᴍᴍᴀɴᴅs •", url="https://te.legra.ph/file/e4018cc7caabc1498b15f.jpg")
                   ],[
                     InlineKeyboardButton(
-                        "• ʜᴇʟᴘ •", url="t.me/Somyajeet_Mishra"
+                        "➕ ɢʀᴏᴜᴘ ᴍᴀɪ ᴀᴅᴅ ᴋᴀʀᴏ ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
                     )
                   ],[
                     InlineKeyboardButton(
