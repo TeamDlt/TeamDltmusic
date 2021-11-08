@@ -23,6 +23,11 @@
       "description": "App ID from my.telegram.org/apps",
       "required": true
     },
+    "PMPERMIT": {
+      "description": "Change to turn off",
+      "required": false,
+      "value": "ENABLE"
+    },
     "HEROKU_API_KEY": {
       "description": "your heroku api key get it from https://dashboard.heroku.com/account",
       "required": true
